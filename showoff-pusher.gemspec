@@ -17,6 +17,6 @@ Gem::Specification.new do |s|
   s.files         = `git ls-files`.split("\n")
   s.require_paths = ["lib"]
 
-  s.add_dependency("showoff", "~> 0.7.0")
+  s.add_dependency("showoff", "~> 0.9.10")
   s.add_dependency("pusher",  "~> 0.8.3")
 end
